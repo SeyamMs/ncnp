@@ -9,7 +9,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/4/main.jpg') }}"
+                src="{{ $page->asset('images/paths/4/main.jpg') }}"
                 alt="main"
             />
         </x-slot:image>
@@ -23,7 +23,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/4/sunstroke.jpg') }}"
+                src="{{ $page->asset('images/paths/4/sunstroke.jpg') }}"
                 alt="sunstroke"
             />
         </x-slot:image>
@@ -50,7 +50,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/4/foot-injuries.jpg') }}"
+                src="{{ $page->asset('images/paths/4/foot-injuries.jpg') }}"
                 alt="foot-injuries"
             />
         </x-slot:image>
@@ -74,7 +74,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/4/abrasions.jpg') }}"
+                src="{{ $page->asset('images/paths/4/abrasions.jpg') }}"
                 alt="abrasions"
             />
         </x-slot:image>
@@ -98,7 +98,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/4/womens-needs.jpg') }}"
+                src="{{ $page->asset('images/paths/4/womens-needs.jpg') }}"
                 alt="womens-needs"
             />
         </x-slot:image>
@@ -121,7 +121,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/4/shaving.jpg') }}"
+                src="{{ $page->asset('images/paths/4/shaving.jpg') }}"
                 alt="shaving"
             />
         </x-slot:image>

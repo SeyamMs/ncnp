@@ -9,7 +9,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/2/main.jpeg') }}"
+                src="{{ $page->asset('images/paths/2/main.jpeg') }}"
                 alt="main"
             />
         </x-slot:image>
@@ -23,7 +23,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/2/watering.jpg') }}"
+                src="{{ $page->asset('images/paths/2/watering.jpg') }}"
                 alt="watering"
             />
         </x-slot:image>
@@ -49,7 +49,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/2/livelihood.jpg') }}"
+                src="{{ $page->asset('images/paths/2/livelihood.jpg') }}"
                 alt="livelihood"
             />
         </x-slot:image>
@@ -92,7 +92,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('/images/paths/2/charity.jpg') }}"
+                src="{{ $page->asset('images/paths/2/charity.jpg') }}"
                 alt="charity"
             />
         </x-slot:image>
