@@ -157,7 +157,7 @@
         loaded = true
         if (to) {
             setTimeout(function() {
-                $scroll('#' + to, { behavior: 'smooth', offset: -1 })
+                $scroll('#' + to, { behavior: 'smooth', offset: '80px' })
                 setTimeout(function() {
                     history.pushState({}, null, window.location.href.split('?')[0]);
                 }, 300)

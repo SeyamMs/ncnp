@@ -1,3 +1,5 @@
+@props(['page'])
+
 <header
     class="fixed top-0 right-0 z-50 flex flex-col items-center w-full overflow-hidden"
     x-data="{ shown: false, showFixed: window.scrollY > 115 }"
@@ -33,53 +35,47 @@
                     }"
                 >
                     <div class="lg:gap-2 flex items-center gap-1">
-                        <button
+                        <a
                             class="md:text-sm flex-shrink-0 p-2 text-xs font-medium text-white"
-                            x-data
-                            x-on:click.prevent="$scroll('#about-section', {behavior: 'smooth', offset: '80px'})"
+                            href="{{ $page->baseUrl }}/?to=about-section"
                         >
                             عن التحدي
-                        </button>
+                        </a>
                         <span class="md:block flex-shrink-0 hidden w-px h-4 bg-gray-100"></span>
-                        <button
+                        <a
                             class="md:text-sm flex-shrink-0 p-2 text-xs font-medium text-white"
-                            x-data
-                            x-on:click.prevent="$scroll('#paths-section', {behavior: 'smooth', offset: '80px'})"
+                            href="{{ $page->baseUrl }}/?to=paths-section"
                         >
                             المسارات
-                        </button>
+                        </a>
                         <span class="md:block flex-shrink-0 hidden w-px h-4 bg-gray-100"></span>
-                        <button
+                        <a
                             class="md:text-sm flex-shrink-0 p-2 text-xs font-medium text-white"
-                            x-data
-                            x-on:click.prevent="$scroll('#targets-section', {behavior: 'smooth', offset: '80px'})"
+                            href="{{ $page->baseUrl }}/?to=targets-section"
                         >
                             الفئة المستهدفة
-                        </button>
+                        </a>
                         <span class="md:block flex-shrink-0 hidden w-px h-4 bg-gray-100"></span>
-                        <button
+                        <a
                             class="md:text-sm sm:block flex-shrink-0 hidden p-2 text-xs font-medium text-white"
-                            x-data
-                            x-on:click.prevent="$scroll('#timeline-section', {behavior: 'smooth', offset: '80px'})"
+                            href="{{ $page->baseUrl }}/?to=timeline-section"
                         >
                             رحلة التحدي ومراحله
-                        </button>
+                        </a>
                         <span class="md:block flex-shrink-0 hidden w-px h-4 bg-gray-100"></span>
-                        <button
+                        <a
                             class="md:text-sm sm:block flex-shrink-0 hidden p-2 text-xs font-medium text-white"
-                            x-data
-                            x-on:click.prevent="$scroll('#timeline-section', {behavior: 'smooth', offset: '80px'})"
+                            href="{{ $page->baseUrl }}/?to=timeline-section"
                         >
                             الخارطة
-                        </button>
+                        </a>
                         <span class="md:block flex-shrink-0 hidden w-px h-4 bg-gray-100"></span>
-                        <button
+                        <a
                             class="md:text-sm sm:block flex-shrink-0 hidden p-2 text-xs font-medium text-white"
-                            x-data
-                            x-on:click.prevent="$scroll('#timeline-section', {behavior: 'smooth', offset: '80px'})"
+                            href="{{ $page->baseUrl }}/?to=timeline-section"
                         >
                             الخطوات
-                        </button>
+                        </a>
                         <div class="md:w-28 flex items-center flex-shrink-0 h-8">
                             <button
                                 class="text-lg group hover:bg-[#6d5d8250] hover:ring-2 hover:ring-opacity-60 hover:ring-white font-semibold rounded-full flex items-center justify-between hover:justify-center p-1 h-8 md:w-28 bg-white hover:text-white text-[#015363]"
