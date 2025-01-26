@@ -60,7 +60,7 @@
             loop
         >
             <source
-                src="{{ $page->asset('videos/main-section.mov') }}"
+                src="{{ $page->asset('videos/main-section.mp4') }}"
                 type="video/mp4"
             />
         </video>
