@@ -115,7 +115,7 @@
                                     >
                                         <a
                                             class="hover:bg-white hover:text-black flex items-center px-4 py-2 text-white border border-white rounded-full"
-                                            href="{{ $page->asset($path['link']) }}"
+                                            href="{{ $page->route($path['link']) }}"
                                         >
                                             <span class="text-lg font-normal">
                                                 رؤية المزيد
