@@ -1,13 +1,14 @@
 @props(['title', 'image'])
 
 <section
-    class="bg-primary-950 flex w-full min-h-[550px] overflow-hidden relative"
+    class="bg-primary-950 flex w-full xl:min-h-[550px] lg:min-h-[480px] md:min-h-[420px] sm:min-h-[380px] min-h-[310px] overflow-hidden relative"
     x-data="{ shown: false, showFixed: window.scrollY > 410 }"
     x-intersect.threshold.20="shown = true"
     x-on:scroll.window="showFixed = window.scrollY > 410"
 >
 
-    <div class="fixed top-0 right-0 flex flex-col w-full min-h-[550px]">
+    <div
+        class="fixed top-0 right-0 flex flex-col w-full xl:min-h-[550px] lg:min-h-[480px] md:min-h-[420px] sm:min-h-[380px] min-h-[310px]">
         <div class="flex flex-col flex-grow w-full h-full">
             <div
                 class="py-14 lg:px-12 md:px-8 md:items-end relative z-10 flex items-center justify-center flex-grow w-full h-full px-4">

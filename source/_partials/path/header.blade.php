@@ -62,7 +62,7 @@
                         >
                             رحلة التحدي ومراحله
                         </a>
-                        <span class="md:block flex-shrink-0 hidden w-px h-4 bg-gray-100"></span>
+                        {{-- <span class="md:block flex-shrink-0 hidden w-px h-4 bg-gray-100"></span>
                         <a
                             class="md:text-sm sm:block flex-shrink-0 hidden p-2 text-xs font-medium text-white"
                             href="{{ $page->baseUrl }}/?to=timeline-section"
@@ -75,7 +75,7 @@
                             href="{{ $page->baseUrl }}/?to=timeline-section"
                         >
                             الخطوات
-                        </a>
+                        </a> --}}
                         <div class="md:w-28 flex items-center flex-shrink-0 h-8">
                             <button
                                 class="text-lg group hover:bg-[#6d5d8250] hover:ring-2 hover:ring-opacity-60 hover:ring-white font-semibold rounded-full flex items-center justify-between hover:justify-center p-1 h-8 md:w-28 bg-white hover:text-white text-[#015363]"

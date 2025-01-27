@@ -31,7 +31,7 @@
         <div class="xl:gap-8 md:gap-6 grid grid-cols-6 gap-4">
             <div class="md:col-span-3 col-span-6">
                 <div
-                    class="lg:py-6 py-3 lg:px-10 px-4 bg-[#EBEBEB] min-h-[218px] rounded-[14px] overflow-hidden"
+                    class="lg:py-6 py-3 lg:px-10 px-4 bg-[#EBEBEB] md:min-h-[218px] min-h-[160px] rounded-[14px] overflow-hidden"
                     :class="{
                         'motion-preset-fade -motion-translate-y-in-[40px] motion-delay-[800ms]': shown,
                         'invisible': !shown,
@@ -39,7 +39,7 @@
                 >
                     <div class="lg:gap-6 flex gap-3">
                         <div
-                            class="size-[62px] flex-shrink-0 rounded-full bg-[#015363] flex items-center justify-center">
+                            class="md:size-[62px] size-[56px] flex-shrink-0 rounded-full bg-[#015363] flex items-center justify-center">
                             <span class="text-2xl font-bold text-white">
                                 01
                             </span>
@@ -58,7 +58,7 @@
 
             <div class="md:col-span-3 col-span-6">
                 <div
-                    class="lg:py-6 py-3 lg:px-10 px-4 bg-[#EBEBEB] min-h-[218px] rounded-[14px] overflow-hidden"
+                    class="lg:py-6 py-3 lg:px-10 px-4 bg-[#EBEBEB] md:min-h-[218px] min-h-[160px] rounded-[14px] overflow-hidden"
                     :class="{
                         'motion-preset-fade -motion-translate-y-in-[40px] motion-delay-[1100ms]': shown,
                         'invisible': !shown,
@@ -66,7 +66,7 @@
                 >
                     <div class="lg:gap-6 flex gap-3">
                         <div
-                            class="size-[62px] flex-shrink-0 rounded-full bg-[#015363] flex items-center justify-center">
+                            class="md:size-[62px] size-[56px] flex-shrink-0 rounded-full bg-[#015363] flex items-center justify-center">
                             <span class="text-2xl font-bold text-white">
                                 02
                             </span>

@@ -2,38 +2,38 @@
     $paths = [
         [
             'title' => 'الاطلاق والنشر والترويج',
-            'date' => '13',
-            'month' => 'يناير',
+            'date' => '02 - 22',
+            'month' => 'فبراير',
             'inverted' => true,
         ],
         [
             'title' => 'الفرز والترشيح',
-            'date' => '02 - 10',
+            'date' => '23 - 25',
             'month' => 'فبراير',
             'inverted' => false,
         ],
         [
             'title' => 'تنفيذ التحدي',
-            'date' => '17 - 19',
-            'month' => 'فبراير',
+            'date' => '04 - 06',
+            'month' => 'مارس',
             'inverted' => false,
         ],
         [
             'title' => 'التحكيم والاعلان',
-            'date' => '19 - 20',
-            'month' => 'فبراير',
+            'date' => '12 - 18',
+            'month' => 'مارس',
             'inverted' => true,
         ],
         [
             'title' => 'ترشيح الفائزين للحاضنة',
-            'date' => '25',
-            'month' => 'فبراير',
+            'date' => '22',
+            'month' => 'ابريل',
             'inverted' => false,
         ],
         [
             'title' => 'احتضان الفائزين',
-            'date' => '30',
-            'month' => 'فبراير',
+            'date' => '27',
+            'month' => 'ابريل',
             'inverted' => false,
         ],
     ];
@@ -93,7 +93,7 @@
                                 </div>
 
                                 <h3
-                                    class="{{ $path['inverted'] ? 'text-white' : 'text-[#1B1B1B]' }} xl:text-[34px] md:text-[24px] sm:text-[20px] text-[18px] leading-[50px] font-semibold text-center"
+                                    class="{{ $path['inverted'] ? 'text-white' : 'text-[#1B1B1B]' }} xl:text-[34px] md:text-[24px] sm:text-[20px] text-[16px] md:leading-[50px] leading-[30px] font-semibold md:text-center text-start"
                                     :class="{
                                         'motion-preset-fade -motion-translate-y-in-[40px] motion-delay-[{{ $loop->iteration * 300 + 600 }}ms]': shown,
                                         'invisible': !shown,

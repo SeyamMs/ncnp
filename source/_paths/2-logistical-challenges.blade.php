@@ -9,7 +9,7 @@
         <x-slot:image>
             <img
                 class="object-cover object-center w-full h-full"
-                src="{{ $page->asset('images/paths/2/main.jpeg') }}"
+                src="{{ $page->asset('images/paths/2/main.jpg') }}"
                 alt="main"
             />
         </x-slot:image>

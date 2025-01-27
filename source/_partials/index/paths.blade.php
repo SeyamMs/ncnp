@@ -43,7 +43,7 @@
     class="relative flex items-center overflow-hidden bg-[#015363]"
     id="paths-section"
     x-data="{ shown: false }"
-    x-intersect.threshold.20="shown = true"
+    x-intersect.threshold.10="shown = true"
 >
     <div class="lg:px-12 md:px-8 lg:py-20 md:py-16 relative z-10 w-full h-full px-4 py-12">
         <div class="container mx-auto">
